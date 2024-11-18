@@ -28,6 +28,11 @@ alias config='/usr/bin/git --git-dir=/home/gam/.cfg/ --work-tree=/home/gam'
 alias luamake=/home/gam/lua-language-server/3rd/luamake/luamake
 alias lg='lazygit'
 
+# Source private aliases if the file exists
+if [ -f ~/.zshrc_private_aliases ]; then
+  source ~/.zshrc_private_aliases
+fi
+
 # load directory colors config
 eval "$(dircolors ~/.dircolors)";
 
