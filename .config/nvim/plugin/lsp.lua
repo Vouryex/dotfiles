@@ -21,9 +21,9 @@ local servers = {
     marksman = {},
     pylsp = {},
     rust_analyzer = {},
-    ruby_ls = {},
+    ruby_lsp = {},
     theme_check = {},
-    tsserver = {},
+    ts_ls = {},
     yamlls = {}
 }
 
