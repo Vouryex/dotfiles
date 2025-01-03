@@ -2,6 +2,7 @@
 "      Plugins
 "####################
 call plug#begin()
+Plug 'stevearc/aerial.nvim'
 Plug 'kazhala/close-buffers.nvim'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-cmdline'
@@ -20,6 +21,7 @@ Plug 'lewis6991/gitsigns.nvim'
 Plug 'phaazon/hop.nvim'
 Plug 'smjonas/inc-rename.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'onsails/lspkind.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'L3MON4D3/LuaSnip', {'tag': 'v2.*', 'do': 'make install_jsregexp'}
 Plug 'alvarosevilla95/luatab.nvim'
